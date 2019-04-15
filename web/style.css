@@ -1,0 +1,132 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 25, 2019, 9:34:47 AM
+    Author     : bardoz
+*/
+
+*{
+    box-sizing:border-box;
+    border-color: steelblue;
+}
+
+/* Style */
+
+body {
+   font-family: "Open Sans", Arial, sans-serif;
+   background: #333333;
+   color: white;
+}
+
+h1, h2, h3{
+    color: #35E0B1;
+}
+
+input {
+    background: teal;
+    color: white;
+}
+
+input:focus {
+    color: whitesmoke;
+    background: salmon;
+}
+
+a:visited {
+    color: red;
+}
+
+a:link {
+    color:white;
+}
+
+a:active{
+    color:blueviolet;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+/* Layout */
+
+header {
+    border-width: medium;
+    border-style: solid;
+}
+
+
+
+#logodiv{
+    position: relative;
+    height: 150px;
+}
+
+.logoimg {
+    height:100%;
+}
+
+#logotitle {
+    position: absolute;
+    display: inline;
+}
+
+nav ul li{
+   border-style: solid;
+   border-radius: 20px;
+   list-style: none; 
+   padding:14px;
+   float: right;
+}
+
+nav ul li:first-child {
+   width: 30%;
+}
+
+nav ul {
+    margin: 0px;
+    position: relative;
+}
+
+nav{
+    border-style: solid;
+    border-width: medium;
+    float: left;
+    width: 100%;
+}
+
+#main_content::after{
+   clear:both;
+   content:"";
+   display:table;
+}
+
+#main_content{
+    border-style: solid;
+    border-width: medium;
+}
+
+aside{
+    float:left;
+    width:20%;
+}
+
+main{
+    float:left;
+    width:80%;
+    border-style:solid;
+    border-width:medium;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+footer{
+    float:left;
+    clear:both;
+    width:100%;
+    text-align:center;
+}
